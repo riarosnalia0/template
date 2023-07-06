@@ -1,0 +1,117 @@
+body {
+	font-family: sans-serif;
+	background: #eee;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.sidebar {
+    background-image: url(tree.jpg);
+    width: 1935px;
+    height: 1800px;
+    position: fixed;
+    margin-left: -130px;
+}
+
+.centered {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.article {
+    float: right; width: 680px;
+}
+
+.content {
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 610px;
+    font-family: serif;
+}
+
+#demo {
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 610px;
+}
+
+.column {
+    width: 600px;
+    height: 350px;
+    padding: 50px;
+    border-style: outset;
+    background-color: #bfc1c2;
+}
+
+.vertical {
+    border-left: 4px grey solid;
+    height: 170px;
+    width: 5px;
+    margin-left: 285px;
+}
+
+.kolom-group {
+    padding: 0px;
+    overflow: hidden;
+}
+
+.kolom-kiri, .kolom-kanan {
+    color: black;
+    background: white;
+    font: normal Arial, Helvetica, sans-serif;
+    float: left;
+    width: 280px;
+    height: 240px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.kolom-kanan {
+    float: right;
+    background: white;
+}
+
+.element {
+    background-image: linear-gradient(
+        to right,
+        #666362,
+        white 35%,
+        white 65%,
+        #666362
+    );
+    background-repeat: no-repeat;
+    background-size: 100% 3px;
+    background-position: 0 center;
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+    text-align: left;
+}
